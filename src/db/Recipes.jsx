@@ -1,0 +1,56 @@
+export const Recepies = [
+  {
+    id: 1,
+    image:
+      "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "pasta",
+    cuisine_type: "Italian",
+    ingredient_list: [
+      "1 cup pasta",
+      "2 cloves garlic",
+      "1/2 cup tomato sauce",
+      "1/4 cup grated Parmesan cheese",
+      "1 tablespoon olive oil",
+      "Salt and pepper to taste",
+    ],
+    instructions: [
+      "Cook the pasta according to package instructions.",
+      "In a pan, heat olive oil and sauté minced garlic until fragrant.",
+      "Add tomato sauce and simmer for 5 minutes.",
+      "Drain the cooked pasta and add it to the pan with the sauce.",
+      "Toss well to coat the pasta with the sauce.",
+      "Season with salt and pepper to taste.",
+      "Serve hot, topped with grated Parmesan cheese.",
+    ],
+  },
+  {
+    id: 2,
+    image: "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=600",
+    name:"kheer",
+    cuisine_type: "Indian",
+    ingredient_list: [
+      "Rice",
+      "Milk",
+      "Sugar",
+      "Cardamom",
+      "Almonds",
+      "Cashews",
+      "Raisins",
+      "Saffron",
+    ],
+    instructions: [
+      "Wash the rice and soak it in water for 30 minutes.",
+      "In a large pot, bring the milk to a boil.",
+      "Drain the soaked rice and add it to the boiling milk.",
+      "Cook the rice in milk on low heat, stirring occasionally.",
+      "After about 30-40 minutes, the rice will be cooked and the mixture will thicken.",
+      "Add sugar, crushed cardamom pods, chopped almonds, cashews, and raisins to the pot.",
+      "Stir well and cook for another 5 minutes.",
+      "If using saffron, soak it in a tablespoon of warm milk and add it to the kheer.",
+      "Remove the pot from heat and let the kheer cool down.",
+      "Serve the kheer chilled or at room temperature.",
+      "Garnish with additional chopped almonds, cashews, and saffron strands, if desired.",
+    ],
+  },
+];
+
