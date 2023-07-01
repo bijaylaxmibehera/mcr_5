@@ -1,6 +1,9 @@
 import { useState } from "react";
+import "./Modal.css"
 
 export function Modal({ addRecipe }) {
+
+ const [showform,setShowForm]=useState(true);
   const [recipe, setRecipe] = useState({
     name: "",
     cuisine_type: "",
@@ -46,10 +49,10 @@ export function Modal({ addRecipe }) {
 
   return (
     <>
-      <div className="add-new-recipe">
+    {showform && <div className="add-new-recipe">
         <h1>Add new recipe</h1>
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className="add-recipe">
             <label>
               Name:
               <input
@@ -94,10 +97,11 @@ export function Modal({ addRecipe }) {
                 onChange={handleImageChange}
               />
             </label>
-            <button type="submit">Add Recipe</button>
+            <button type="submit" className="btn secondary" onClick={()=>setShowForm(false)}>Add Recipe</button>
           </div>
         </form>
-      </div>
+      </div>}
+      
     </>
   );
 }
